@@ -22,8 +22,8 @@ export const ContactSection = () => {
           mind? Feel free to reach out. Always open to discuss new opportunities
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div className="space-y-8">
+        <div className="flex gap-12 justify-center ">
+          <div className="gridspace-y-8">
             <h3 className="text-2l font-semibold mb-6"> Contact Information</h3>
 
             <div className="space-y-6 justify-center">
@@ -41,7 +41,7 @@ export const ContactSection = () => {
                   </a>
                 </div>
               </div>
-              <div className="flex items-start space-x=4">
+              <div className="flex space-x=4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 text-primary" />{" "}
                 </div>
